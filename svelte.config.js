@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from 'amplify-adapter';
 import { mdsvex } from 'mdsvex';
 import { sveltePreprocess } from 'svelte-preprocess';
 
