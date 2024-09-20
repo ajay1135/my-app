@@ -1,7 +1,5 @@
 <header>
-	<a href="/">
-		<img src="HomeLogo.webp" alt="Home Logo">
-	</a>
+	<a href="/">Home</a>
 
 	<nav>
 		<ul>
@@ -17,6 +15,11 @@
 
 <style lang="scss">
 	header {
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
+
 		padding: 1rem;
 		display: flex;
 		flex-wrap: wrap;
@@ -32,11 +35,6 @@
 			list-style-type: none;
 			display: flex;
 			gap: 1rem;
-
-			a {
-				text-decoration: none;
-				color: inherit;
-			}
 		}
 	}
 </style>
