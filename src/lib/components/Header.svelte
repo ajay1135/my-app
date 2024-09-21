@@ -7,7 +7,7 @@
 				<a href="/blog">Blog</a>
 			</li>
 			<li>
-				<a href="/contact">Contact</a>
+				<a href="/links">Links</a>
 			</li>
 		</ul>
 	</nav>
