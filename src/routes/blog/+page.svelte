@@ -17,7 +17,7 @@
 				</h2>
 				<ul>
 					<li>
-						Date: {post.meta.date}
+						Date: {post.meta.createdDate}
 					</li>
 					<li>
 						Estimated Reading Time: {post.meta.estimatedReadingTimeInMins} min

@@ -1,6 +1,8 @@
 import adapter from 'amplify-adapter';
 import { mdsvex } from 'mdsvex';
 import { sveltePreprocess } from 'svelte-preprocess';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeSlug from 'rehype-slug';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -10,7 +12,8 @@ const config = {
 	preprocess: [
 		sveltePreprocess(), 
 		mdsvex({
-			extensions: ['.md']
+			extensions: ['.md'], 
+			rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings]
 		})
 	],
 

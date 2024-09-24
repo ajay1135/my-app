@@ -34,6 +34,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"amplify-adapter": "^0.1.2"
+		"amplify-adapter": "^0.1.2",
+		"rehype-autolink-headings": "^7.1.0",
+		"rehype-slug": "^6.0.0"
 	}
 }

@@ -4,7 +4,8 @@
 
 <article>
 	<h1>{data.title}</h1>
-	<p>Published: {data.date}</p>
+	<p>Published: {data.createdDate}</p>
+	<p>Last Updated: {data.lastUpdatedDate}</p>
 	<p>Author: {data.author}</p>
 	<p>Estimated Reading Time: {data.estimatedReadingTimeInMins} min</p>
 	<svelte:component this={data.content} />
@@ -32,6 +33,7 @@
 			margin: 0;
 			color: #A6A6A6;
 		}
+
 	}
 
 	aside ul {
@@ -59,4 +61,5 @@
 			}
 		}
 	}
+
 </style>
