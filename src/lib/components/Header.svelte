@@ -6,9 +6,6 @@
 			<li>
 				<a href="/blog">Blog</a>
 			</li>
-			<li>
-				<a href="/links">Links</a>
-			</li>
 		</ul>
 	</nav>
 </header>
